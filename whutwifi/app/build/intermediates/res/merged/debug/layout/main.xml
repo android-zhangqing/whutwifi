@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F3F4"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/main_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="首页"
+            android:textColor="#FF8400"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/btn_help_guide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/question" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutfragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F2F3F4"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/main_main_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/mainMarginLeftRight"
+            android:layout_marginRight="@dimen/mainMarginLeftRight"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/main_main_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/icon_tab_home_normal" />
+
+            <TextView
+                android:id="@+id/main_main_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:text="首页"
+                android:textColor="#82858b" />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fadingEdge="horizontal"
+            android:scrollbars="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/bottomMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#F2F3F4"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/mobile0_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile0_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile0_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境0"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile1_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile1_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile1_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境1"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile2_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile2_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile2_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境2"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile3_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile3_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile3_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境3"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile4_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile4_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile4_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境4"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile5_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile5_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile5_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境5"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile6_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile6_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile6_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境6"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile7_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile7_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile7_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境7"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile8_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile8_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile8_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境8"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mobile9_main_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/mainMarginLeftRight"
+                    android:layout_marginRight="@dimen/mainMarginLeftRight"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/mobile9_main_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/icon_tab_discover_normal" />
+
+                    <TextView
+                        android:id="@+id/mobile9_main_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:text="环境9"
+                        android:textColor="#82858b" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

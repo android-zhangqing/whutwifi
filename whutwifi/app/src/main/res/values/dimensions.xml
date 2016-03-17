@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <dimen  name="editViewWidth">100dp</dimen>
+ <dimen  name="mainMarginLeftRight">10dp</dimen>
+ <dimen  name="mobile1buttonpadding">10dp</dimen>
+ <dimen  name="mobile1buttonmargin">1dp</dimen>
+ <dimen  name="mobile1buttonmarginLeft">10dp</dimen>
+    
+</resources>

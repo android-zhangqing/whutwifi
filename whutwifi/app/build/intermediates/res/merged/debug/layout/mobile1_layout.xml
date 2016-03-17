@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mobile1_nonetwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDEFB8"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/no_network" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:gravity="center_vertical"
+            android:text="世界上最遥远的距离就是没网"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:text="账号" />
+
+        <EditText
+            android:id="@+id/mobile1_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="卡号"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:text="密码" />
+
+        <EditText
+            android:id="@+id/mobile1_pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="密码"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray" />
+
+        <Button
+            android:id="@+id/mobile1_btn_saveuserpass"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="锁定" />
+
+        <Button
+            android:id="@+id/mobile1_btn_synchronized"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="@drawable/button_blue"
+            android:text="同步" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mobile1_button_login0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境0登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境1登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境2登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境3登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境4登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境5登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境6登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境7登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境8登录" />
+
+            <Button
+                android:id="@+id/mobile1_button_login9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mobile1buttonmargin"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginTop="@dimen/mobile1buttonmargin"
+                android:background="@drawable/button_blue"
+                android:padding="@dimen/mobile1buttonpadding"
+                android:text="环境9登录" />
+
+            <EditText
+                android:id="@+id/editinvisible"
+                android:layout_width="1dp"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/mobile1_editOutput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="@dimen/mobile1buttonmarginLeft"
+                android:layout_marginRight="@dimen/mobile1buttonmarginLeft"
+                android:background="@android:color/darker_gray"
+                android:maxLines="50"
+                android:paddingBottom="30dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="8dp"
+                android:scrollbars="vertical"
+                android:text="okok"
+                android:textColor="@android:color/primary_text_light" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

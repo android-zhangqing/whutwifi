@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/editViewWidth"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="对该环境备注" />
+
+        <EditText
+            android:id="@+id/mobile2_edittext_postscript"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/mobile2_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="可用" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/editViewWidth"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="mac:" />
+
+        <EditText
+            android:id="@+id/mobile2_edittext_mac"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/editViewWidth"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="switchip：" />
+
+        <EditText
+            android:id="@+id/mobile2_edittext_switchip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/editViewWidth"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="ip：" />
+
+        <EditText
+            android:id="@+id/mobile2_edittext_ip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/editViewWidth"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:text="ac_id：" />
+
+        <EditText
+            android:id="@+id/mobile2_edittext_acid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mobile2_button_convert"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="剪贴板中认证地址自动到参数" />
+
+        <Button
+            android:id="@+id/mobile2_button_convert_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="？" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mobile2_button_savesetting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="保存设置" />
+
+        <Button
+            android:id="@+id/mobile2_button_clearall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="清空" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/editViewWidth"
+            android:layout_height="fill_parent"
+            android:gravity="right|center_vertical"
+            android:text="按钮高度：" />
+
+        <SeekBar
+            android:id="@+id/button_height_seekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="300"
+            android:progress="100" />
+
+        <TextView
+            android:id="@+id/button_height_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="100%" />
+    </LinearLayout>
+
+</LinearLayout>
